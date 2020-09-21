@@ -1,0 +1,108 @@
+.page-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: khaki;
+}
+
+.pages{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(177, 117, 27);
+    font-size: 8px;
+    transition-duration: 0.2s;
+}
+
+a{
+    color: white;
+    font-family: sans-serif ;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+    background-color: rgb(189, 69, 0);
+}
+  
+a:active {
+    text-decoration: none;
+}
+
+h1{
+    align-self: center;
+}
+
+.formu{
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: max-content;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 2em;
+    background-color: cornsilk;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+textarea{
+    width: 300px;
+    height: 300px;
+}
+
+.Button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    border: none;
+    border-radius: 30px;
+    color: lemonchiffon;
+    font-size: 20px;
+    transition-duration: 0.2s;
+}
+
+button[type=submit]:hover{
+    background-color: rgb(1, 173, 73);
+}
+
+button[type=reset]:hover{
+    background-color: rgb(207, 25, 1);
+}
+
+button[type=submit]{
+    background-color: rgb(1, 146, 62);
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button[type=reset]{
+    background-color: rgb(179, 21, 0);
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
